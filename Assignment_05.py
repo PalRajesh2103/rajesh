@@ -8,12 +8,12 @@
 # 3.   Retrieves and displays the corresponding marks.
 # 4.   If the student’s name is not found, display an appropriate message.
 
-# student_marks={"Alice":200,"Mohit":400,"Amit":350}
-# student_name=input("Enter the student's name: ")
-# if student_name in student_marks:
-#     print(f"{student_name}'s marks is {student_marks[student_name]}")
-# else:
-#     print("Student not found.")
+student_marks={"Alice":200,"Mohit":400,"Amit":350}
+student_name=input("Enter the student's name: ")
+if student_name in student_marks:
+    print(f"{student_name}'s marks is {student_marks[student_name]}")
+else:
+    print("Student not found.")
 
 # Task 2: Demonstrate List Slicing
 # Problem Statement: Write a Python program that:
